@@ -9,7 +9,7 @@ wandb/
 backup/
 log/
 *.xlsx
-*.json
+# *.json
 *.mp4
 *.avi
 *.mov
@@ -43,7 +43,7 @@ cuda_*.run
 cuda-keyring*.deb
 cuda-repo*.deb
 
-# Temp files
+# Temp files>
 temp_*/
 *.db
 .DS_Store
