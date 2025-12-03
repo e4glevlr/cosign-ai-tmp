@@ -1,30 +1,63 @@
 *.swp
-__pycache__/**
+__pycache__/
+*.pyc
 out/
 core*
 *.ipynb
-# *.sh
 *.bin
-wandb
-backup
-*.pth
-#*.txt
-out/
+wandb/
+backup/
 log/
-*.json
 *.xlsx
-*.mp4
-tools/*.jpg
-tools/*.mp4
-pre_training.py
-pretrained_weight/
+
+# IDE
+.idea/
+.vscode/
+*.code-workspace
+
 # Environment files
 .env
 .env.local
 .env.*.local
-cuda_12.8.0_570.86.10_linux.run
-cuda-keyring_1.1-1_all.deb.1
-cuda-keyring_1.1-1_all.deb.2
-cuda-repo-wsl-ubuntu-12-8-local_12.8.0-1_amd64.deb
+.venv/
+venv/
+
+# Large files / data
+*.pth
+*.ckpt
+*.pkl
+*.mp4
+*.avi
+*.deb
+*.run
+
+# CUDA installers
+cuda_*.run
+cuda-keyring*.deb
+cuda-repo*.deb
+
+# Temp files
+temp_*/
+*.db
+.DS_Store
+
+# Output directories (keep structure, ignore contents)
+output/*
+!output/.gitkeep
+pretrained_weight/*
+!pretrained_weight/.gitkeep
+
+# Data directories
+vn_sentence_data/
+dataset/
+data/input/*
+data/output/*
+!data/input/.gitkeep
+!data/output/.gitkeep
+
+# Misc
 Dockerfile.optimized
 ignore.txt
+tools/*.jpg
+tools/*.mp4
+pre_training.py

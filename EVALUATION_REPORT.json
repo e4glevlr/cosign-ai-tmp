@@ -1,0 +1,1124 @@
+{
+  "metrics": {
+    "bleu1": 0.3801587301587301,
+    "bleu2": 0.31481481481481477,
+    "bleu4": 0.3055555555555556,
+    "bleu": 0.30848763288801573,
+    "rouge_l": 0.37489151060579634,
+    "wer": 1.0812169312169313,
+    "exact_match": 30.158730158730158,
+    "partial_match_50": 33.33333333333333
+  },
+  "results": [
+    {
+      "name": "HP3_S049",
+      "ground_truth": "hôm nay cửa hàng mở",
+      "prediction": "hãy bảo vệ nhà tôi với",
+      "gloss": [
+        "cửa hàng",
+        "mở",
+        "hôm nay"
+      ],
+      "bleu1": 0.0,
+      "bleu2": 0.0,
+      "bleu4": 0.0,
+      "bleu": 0.0,
+      "rouge_l": 0.0,
+      "wer": 1.2,
+      "exact_match": false,
+      "partial_match": false
+    },
+    {
+      "name": "BG4_S026",
+      "ground_truth": "tôi ngất hãy giúp đỡ tôi",
+      "prediction": "tôi ngứa da, hãy giúp đỡ tôi",
+      "gloss": [
+        "tôi",
+        "ngất",
+        "giúp đỡ"
+      ],
+      "bleu1": 0.7142857142857143,
+      "bleu2": 0.5,
+      "bleu4": 0.25,
+      "bleu": 0.4347208719449915,
+      "rouge_l": 0.7692307692307692,
+      "wer": 0.3333333333333333,
+      "exact_match": false,
+      "partial_match": true
+    },
+    {
+      "name": "HP3_S043",
+      "ground_truth": "thức ăn có ngon không?",
+      "prediction": "tôi ngứa da, hãy giúp đỡ tôi",
+      "gloss": [
+        "thức ăn",
+        "ngon",
+        "không"
+      ],
+      "bleu1": 0.0,
+      "bleu2": 0.0,
+      "bleu4": 0.0,
+      "bleu": 0.0,
+      "rouge_l": 0.0,
+      "wer": 1.4,
+      "exact_match": false,
+      "partial_match": false
+    },
+    {
+      "name": "TN2_S040",
+      "ground_truth": "tôi mua 1 cuốn sách",
+      "prediction": "tôi ngứa da, hãy giúp đỡ tôi",
+      "gloss": [
+        "1",
+        "mua",
+        "sách"
+      ],
+      "bleu1": 0.14285714285714285,
+      "bleu2": 0.0,
+      "bleu4": 0.0,
+      "bleu": 0.0,
+      "rouge_l": 0.16666666666666666,
+      "wer": 1.2,
+      "exact_match": false,
+      "partial_match": false
+    },
+    {
+      "name": "TN5_S019",
+      "ground_truth": "hãy mở nhanh cửa sổ ra",
+      "prediction": "hãy mở nhanh cửa sổ ra",
+      "gloss": [
+        "cửa sổ",
+        "mở",
+        "nhanh"
+      ],
+      "bleu1": 1.0,
+      "bleu2": 1.0,
+      "bleu4": 1.0,
+      "bleu": 1.0,
+      "rouge_l": 1.0,
+      "wer": 0.0,
+      "exact_match": true,
+      "partial_match": true
+    },
+    {
+      "name": "TN5_S012",
+      "ground_truth": "nhà tôi bị ướt",
+      "prediction": "có hỏa hoạn, nguy hiểm nguy hiểm",
+      "gloss": [
+        "nhà",
+        "tôi",
+        "ướt"
+      ],
+      "bleu1": 0.0,
+      "bleu2": 0.0,
+      "bleu4": 0.0,
+      "bleu": 0.0,
+      "rouge_l": 0.0,
+      "wer": 1.75,
+      "exact_match": false,
+      "partial_match": false
+    },
+    {
+      "name": "BG3_S009",
+      "ground_truth": "giúp đỡ tôi, khẩn cấp khẩn cấp",
+      "prediction": "tôi bị chảy máy tay",
+      "gloss": [
+        "giúp đỡ",
+        "tôi",
+        "khẩn cấp"
+      ],
+      "bleu1": 0.0,
+      "bleu2": 0.0,
+      "bleu4": 0.0,
+      "bleu": 0.0,
+      "rouge_l": 0.0,
+      "wer": 1.0,
+      "exact_match": false,
+      "partial_match": false
+    },
+    {
+      "name": "TN5_S033",
+      "ground_truth": "tôi ngứa da, hãy giúp đỡ tôi",
+      "prediction": "tôi ngứa da, hãy giúp đỡ tôi",
+      "gloss": [
+        "ngứa da",
+        "giúp đỡ"
+      ],
+      "bleu1": 1.0,
+      "bleu2": 1.0,
+      "bleu4": 1.0,
+      "bleu": 1.0,
+      "rouge_l": 1.0,
+      "wer": 0.0,
+      "exact_match": true,
+      "partial_match": true
+    },
+    {
+      "name": "BG2_S035",
+      "ground_truth": "xin chào, tôi tên là",
+      "prediction": "tôi ngứa da, hãy giúp đỡ tôi",
+      "gloss": [
+        "xin chào",
+        "tôi",
+        "tên"
+      ],
+      "bleu1": 0.14285714285714285,
+      "bleu2": 0.0,
+      "bleu4": 0.0,
+      "bleu": 0.0,
+      "rouge_l": 0.16666666666666666,
+      "wer": 1.4,
+      "exact_match": false,
+      "partial_match": false
+    },
+    {
+      "name": "HP2_S013",
+      "ground_truth": "con đường này nguy hiểm",
+      "prediction": "tôi ngứa da, hãy giúp đỡ tôi",
+      "gloss": [
+        "đường",
+        "nguy hiểm"
+      ],
+      "bleu1": 0.0,
+      "bleu2": 0.0,
+      "bleu4": 0.0,
+      "bleu": 0.0,
+      "rouge_l": 0.0,
+      "wer": 1.4,
+      "exact_match": false,
+      "partial_match": false
+    },
+    {
+      "name": "BG5_S047",
+      "ground_truth": "tôi không biết",
+      "prediction": "tôi ngứa da, hãy giúp đỡ tôi",
+      "gloss": [
+        "tôi",
+        "không biết"
+      ],
+      "bleu1": 0.14285714285714285,
+      "bleu2": 0.0,
+      "bleu4": 0.0,
+      "bleu": 0.0,
+      "rouge_l": 0.2,
+      "wer": 2.0,
+      "exact_match": false,
+      "partial_match": false
+    },
+    {
+      "name": "BG1_S048",
+      "ground_truth": "10 đôi giày đẹp",
+      "prediction": "báo cáo có hỏa hoạn",
+      "gloss": [
+        "10",
+        "giày",
+        "đẹp"
+      ],
+      "bleu1": 0.0,
+      "bleu2": 0.0,
+      "bleu4": 0.0,
+      "bleu": 0.0,
+      "rouge_l": 0.0,
+      "wer": 1.25,
+      "exact_match": false,
+      "partial_match": false
+    },
+    {
+      "name": "BG2_S025",
+      "ground_truth": "gọi xe cứu thương đi",
+      "prediction": "gọi xe cứu thương đi",
+      "gloss": [
+        "xe",
+        "cứu thương",
+        "gọi"
+      ],
+      "bleu1": 1.0,
+      "bleu2": 1.0,
+      "bleu4": 1.0,
+      "bleu": 1.0,
+      "rouge_l": 1.0,
+      "wer": 0.0,
+      "exact_match": true,
+      "partial_match": true
+    },
+    {
+      "name": "BG5_S008",
+      "ground_truth": "nơi trú ẩn ở đâu",
+      "prediction": "nơi trú ẩn ở đâu",
+      "gloss": [
+        "nơi trú ẩn",
+        "ở đâu"
+      ],
+      "bleu1": 1.0,
+      "bleu2": 1.0,
+      "bleu4": 1.0,
+      "bleu": 1.0,
+      "rouge_l": 1.0,
+      "wer": 0.0,
+      "exact_match": true,
+      "partial_match": true
+    },
+    {
+      "name": "HP3_S040",
+      "ground_truth": "tôi mua 1 cuốn sách",
+      "prediction": "hôm nay cửa hàng mở",
+      "gloss": [
+        "1",
+        "mua",
+        "sách"
+      ],
+      "bleu1": 0.0,
+      "bleu2": 0.0,
+      "bleu4": 0.0,
+      "bleu": 0.0,
+      "rouge_l": 0.0,
+      "wer": 1.0,
+      "exact_match": false,
+      "partial_match": false
+    },
+    {
+      "name": "HP2_S018",
+      "ground_truth": "hãy tìm người mất",
+      "prediction": "gọi cứu hộ ngay bây giờ đang có lũ",
+      "gloss": [
+        "tìm",
+        "người",
+        "mất"
+      ],
+      "bleu1": 0.0,
+      "bleu2": 0.0,
+      "bleu4": 0.0,
+      "bleu": 0.0,
+      "rouge_l": 0.0,
+      "wer": 2.25,
+      "exact_match": false,
+      "partial_match": false
+    },
+    {
+      "name": "TN4_S045",
+      "ground_truth": "@",
+      "prediction": "tôi ngứa da, hãy giúp đỡ tôi",
+      "gloss": [
+        "kí hiệu",
+        "@"
+      ],
+      "bleu1": 0.0,
+      "bleu2": 0.0,
+      "bleu4": 0.0,
+      "bleu": 0.0,
+      "rouge_l": 0.0,
+      "wer": 7.0,
+      "exact_match": false,
+      "partial_match": false
+    },
+    {
+      "name": "BG2_S034",
+      "ground_truth": "tôi đang bị sốt",
+      "prediction": "tôi đang bị sốt",
+      "gloss": [
+        "tôi",
+        "bệnh sốt"
+      ],
+      "bleu1": 1.0,
+      "bleu2": 1.0,
+      "bleu4": 1.0,
+      "bleu": 1.0,
+      "rouge_l": 1.0,
+      "wer": 0.0,
+      "exact_match": true,
+      "partial_match": true
+    },
+    {
+      "name": "TN1_S009",
+      "ground_truth": "giúp đỡ tôi, khẩn cấp khẩn cấp",
+      "prediction": "tôi ngứa da, hãy giúp đỡ tôi",
+      "gloss": [
+        "giúp đỡ",
+        "tôi",
+        "khẩn cấp"
+      ],
+      "bleu1": 0.2857142857142857,
+      "bleu2": 0.16666666666666666,
+      "bleu4": 0.0,
+      "bleu": 0.0,
+      "rouge_l": 0.2857142857142857,
+      "wer": 1.0,
+      "exact_match": false,
+      "partial_match": false
+    },
+    {
+      "name": "BG3_S034",
+      "ground_truth": "tôi đang bị sốt",
+      "prediction": "tôi ngứa da, hãy giúp đỡ tôi",
+      "gloss": [
+        "tôi",
+        "bệnh sốt"
+      ],
+      "bleu1": 0.14285714285714285,
+      "bleu2": 0.0,
+      "bleu4": 0.0,
+      "bleu": 0.0,
+      "rouge_l": 0.18181818181818182,
+      "wer": 1.5,
+      "exact_match": false,
+      "partial_match": false
+    },
+    {
+      "name": "TN4_S029",
+      "ground_truth": "tôi đau đầu và chóng mặt",
+      "prediction": "tôi đang đau bụng",
+      "gloss": [
+        "đầu",
+        "chóng mặt"
+      ],
+      "bleu1": 0.5,
+      "bleu2": 0.0,
+      "bleu4": 0.0,
+      "bleu": 0.0,
+      "rouge_l": 0.4,
+      "wer": 0.8333333333333334,
+      "exact_match": false,
+      "partial_match": false
+    },
+    {
+      "name": "TN2_S046",
+      "ground_truth": "ngày mai tôi đi chợ",
+      "prediction": "hãy tìm người mất",
+      "gloss": [
+        "ngày mai",
+        "đi",
+        "chợ"
+      ],
+      "bleu1": 0.0,
+      "bleu2": 0.0,
+      "bleu4": 0.0,
+      "bleu": 0.0,
+      "rouge_l": 0.0,
+      "wer": 1.0,
+      "exact_match": false,
+      "partial_match": false
+    },
+    {
+      "name": "BG1_S046",
+      "ground_truth": "ngày mai tôi đi chợ",
+      "prediction": "hãy tìm người mất",
+      "gloss": [
+        "ngày mai",
+        "đi",
+        "chợ"
+      ],
+      "bleu1": 0.0,
+      "bleu2": 0.0,
+      "bleu4": 0.0,
+      "bleu": 0.0,
+      "rouge_l": 0.0,
+      "wer": 1.0,
+      "exact_match": false,
+      "partial_match": false
+    },
+    {
+      "name": "HP1_S036",
+      "ground_truth": "cảm ơn vì bạn đã giúp",
+      "prediction": "tôi ngứa da, hãy giúp đỡ tôi",
+      "gloss": [
+        "cảm ơn",
+        "bạn",
+        "giúp"
+      ],
+      "bleu1": 0.14285714285714285,
+      "bleu2": 0.0,
+      "bleu4": 0.0,
+      "bleu": 0.0,
+      "rouge_l": 0.15384615384615383,
+      "wer": 1.1666666666666667,
+      "exact_match": false,
+      "partial_match": false
+    },
+    {
+      "name": "HP3_S022",
+      "ground_truth": "hãy gọi bác sĩ ngay bây giờ",
+      "prediction": "tôi ngứa da, hãy giúp đỡ tôi",
+      "gloss": [
+        "gọi",
+        "bác sĩ",
+        "bây giờ"
+      ],
+      "bleu1": 0.14285714285714285,
+      "bleu2": 0.0,
+      "bleu4": 0.0,
+      "bleu": 0.0,
+      "rouge_l": 0.14285714285714285,
+      "wer": 1.0,
+      "exact_match": false,
+      "partial_match": false
+    },
+    {
+      "name": "HP3_S037",
+      "ground_truth": "có thể lấy nước uống ở đâu?",
+      "prediction": "cảnh báo bây giờ đang có lũ",
+      "gloss": [
+        "nước",
+        "uống",
+        "ở đâu"
+      ],
+      "bleu1": 0.14285714285714285,
+      "bleu2": 0.0,
+      "bleu4": 0.0,
+      "bleu": 0.0,
+      "rouge_l": 0.14285714285714285,
+      "wer": 1.0,
+      "exact_match": false,
+      "partial_match": false
+    },
+    {
+      "name": "BG3_S005",
+      "ground_truth": "sóng thần đang tới, hãy di tản",
+      "prediction": "sóng thần đang tới, hãy di tản",
+      "gloss": [
+        "sóng thần",
+        "di tản"
+      ],
+      "bleu1": 1.0,
+      "bleu2": 1.0,
+      "bleu4": 1.0,
+      "bleu": 1.0,
+      "rouge_l": 1.0,
+      "wer": 0.0,
+      "exact_match": true,
+      "partial_match": true
+    },
+    {
+      "name": "TN1_S011",
+      "ground_truth": "có an toàn không?",
+      "prediction": "tôi ngứa da, hãy giúp đỡ tôi",
+      "gloss": [
+        "an toàn",
+        "không"
+      ],
+      "bleu1": 0.0,
+      "bleu2": 0.0,
+      "bleu4": 0.0,
+      "bleu": 0.0,
+      "rouge_l": 0.0,
+      "wer": 1.75,
+      "exact_match": false,
+      "partial_match": false
+    },
+    {
+      "name": "BG2_S049",
+      "ground_truth": "hôm nay cửa hàng mở",
+      "prediction": "có hỏa hoạn, nguy hiểm nguy hiểm",
+      "gloss": [
+        "cửa hàng",
+        "mở",
+        "hôm nay"
+      ],
+      "bleu1": 0.0,
+      "bleu2": 0.0,
+      "bleu4": 0.0,
+      "bleu": 0.0,
+      "rouge_l": 0.0,
+      "wer": 1.4,
+      "exact_match": false,
+      "partial_match": false
+    },
+    {
+      "name": "TN5_S042",
+      "ground_truth": "mẹ của tôi đang ở nhà",
+      "prediction": "hãy bảo vệ nhà tôi với",
+      "gloss": [
+        "mẹ",
+        "tôi",
+        "ở nhà"
+      ],
+      "bleu1": 0.3333333333333333,
+      "bleu2": 0.0,
+      "bleu4": 0.0,
+      "bleu": 0.0,
+      "rouge_l": 0.16666666666666666,
+      "wer": 1.0,
+      "exact_match": false,
+      "partial_match": false
+    },
+    {
+      "name": "HP3_S013",
+      "ground_truth": "con đường này nguy hiểm",
+      "prediction": "tôi ngứa da, hãy giúp đỡ tôi",
+      "gloss": [
+        "đường",
+        "nguy hiểm"
+      ],
+      "bleu1": 0.0,
+      "bleu2": 0.0,
+      "bleu4": 0.0,
+      "bleu": 0.0,
+      "rouge_l": 0.0,
+      "wer": 1.4,
+      "exact_match": false,
+      "partial_match": false
+    },
+    {
+      "name": "BG5_S033",
+      "ground_truth": "tôi ngứa da, hãy giúp đỡ tôi",
+      "prediction": "tôi ngứa da, hãy giúp đỡ tôi",
+      "gloss": [
+        "ngứa da",
+        "giúp đỡ"
+      ],
+      "bleu1": 1.0,
+      "bleu2": 1.0,
+      "bleu4": 1.0,
+      "bleu": 1.0,
+      "rouge_l": 1.0,
+      "wer": 0.0,
+      "exact_match": true,
+      "partial_match": true
+    },
+    {
+      "name": "BG4_S019",
+      "ground_truth": "hãy mở nhanh cửa sổ ra",
+      "prediction": "hãy mở nhanh cửa sổ ra",
+      "gloss": [
+        "cửa sổ",
+        "mở",
+        "nhanh"
+      ],
+      "bleu1": 1.0,
+      "bleu2": 1.0,
+      "bleu4": 1.0,
+      "bleu": 1.0,
+      "rouge_l": 1.0,
+      "wer": 0.0,
+      "exact_match": true,
+      "partial_match": true
+    },
+    {
+      "name": "TN5_S024",
+      "ground_truth": "khẩn cấp sốt cao",
+      "prediction": "tôi đang bị sốt",
+      "gloss": [
+        "sốt cao",
+        "khẩn cấp"
+      ],
+      "bleu1": 0.25,
+      "bleu2": 0.0,
+      "bleu4": 0.0,
+      "bleu": 0.0,
+      "rouge_l": 0.25,
+      "wer": 1.0,
+      "exact_match": false,
+      "partial_match": false
+    },
+    {
+      "name": "HP3_S018",
+      "ground_truth": "hãy tìm người mất",
+      "prediction": "tôi bị chảy máy tay",
+      "gloss": [
+        "tìm",
+        "người",
+        "mất"
+      ],
+      "bleu1": 0.0,
+      "bleu2": 0.0,
+      "bleu4": 0.0,
+      "bleu": 0.0,
+      "rouge_l": 0.0,
+      "wer": 1.25,
+      "exact_match": false,
+      "partial_match": false
+    },
+    {
+      "name": "TN5_S038",
+      "ground_truth": "tôi yêu gia đình",
+      "prediction": "có thể lấy nước uống ở đâu?",
+      "gloss": [
+        "tôi",
+        "yêu",
+        "gia đình"
+      ],
+      "bleu1": 0.0,
+      "bleu2": 0.0,
+      "bleu4": 0.0,
+      "bleu": 0.0,
+      "rouge_l": 0.0,
+      "wer": 1.75,
+      "exact_match": false,
+      "partial_match": false
+    },
+    {
+      "name": "BG4_S023",
+      "ground_truth": "bệnh viện ở đâu?",
+      "prediction": "bệnh viện ở đâu?",
+      "gloss": [
+        "bệnh viện",
+        "ở đâu"
+      ],
+      "bleu1": 1.0,
+      "bleu2": 1.0,
+      "bleu4": 1.0,
+      "bleu": 1.0,
+      "rouge_l": 1.0,
+      "wer": 0.0,
+      "exact_match": true,
+      "partial_match": true
+    },
+    {
+      "name": "BG1_S007",
+      "ground_truth": "cảnh báo bây giờ đang có lũ",
+      "prediction": "cảnh báo bây giờ đang có lũ",
+      "gloss": [
+        "cảnh báo",
+        "lũ",
+        "bây giờ"
+      ],
+      "bleu1": 1.0,
+      "bleu2": 1.0,
+      "bleu4": 1.0,
+      "bleu": 1.0,
+      "rouge_l": 1.0,
+      "wer": 0.0,
+      "exact_match": true,
+      "partial_match": true
+    },
+    {
+      "name": "HP2_S001",
+      "ground_truth": "lũ đang đến ngay bây giờ",
+      "prediction": "cảnh báo bây giờ đang có lũ",
+      "gloss": [
+        "lũ",
+        "bây giờ"
+      ],
+      "bleu1": 0.5714285714285714,
+      "bleu2": 0.16666666666666666,
+      "bleu4": 0.0,
+      "bleu": 0.0,
+      "rouge_l": 0.30769230769230765,
+      "wer": 1.1666666666666667,
+      "exact_match": false,
+      "partial_match": true
+    },
+    {
+      "name": "TN2_S035",
+      "ground_truth": "xin chào, tôi tên là",
+      "prediction": "tôi ngứa da, hãy giúp đỡ tôi",
+      "gloss": [
+        "xin chào",
+        "tôi",
+        "tên"
+      ],
+      "bleu1": 0.14285714285714285,
+      "bleu2": 0.0,
+      "bleu4": 0.0,
+      "bleu": 0.0,
+      "rouge_l": 0.16666666666666666,
+      "wer": 1.4,
+      "exact_match": false,
+      "partial_match": false
+    },
+    {
+      "name": "BG5_S038",
+      "ground_truth": "tôi yêu gia đình",
+      "prediction": "có thể lấy nước uống ở đâu?",
+      "gloss": [
+        "tôi",
+        "yêu",
+        "gia đình"
+      ],
+      "bleu1": 0.0,
+      "bleu2": 0.0,
+      "bleu4": 0.0,
+      "bleu": 0.0,
+      "rouge_l": 0.0,
+      "wer": 1.75,
+      "exact_match": false,
+      "partial_match": false
+    },
+    {
+      "name": "TN2_S004",
+      "ground_truth": "đang có động đất, hãy chạy nhanh đi",
+      "prediction": "hãy chuẩn bị áo phao",
+      "gloss": [
+        "động đất",
+        "chạy",
+        "nhanh"
+      ],
+      "bleu1": 0.2,
+      "bleu2": 0.0,
+      "bleu4": 0.0,
+      "bleu": 0.0,
+      "rouge_l": 0.15384615384615385,
+      "wer": 1.0,
+      "exact_match": false,
+      "partial_match": false
+    },
+    {
+      "name": "TN5_S041",
+      "ground_truth": "học chữ A, B",
+      "prediction": "tôi đang bị sốt",
+      "gloss": [
+        "A",
+        "B",
+        "học"
+      ],
+      "bleu1": 0.0,
+      "bleu2": 0.0,
+      "bleu4": 0.0,
+      "bleu": 0.0,
+      "rouge_l": 0.0,
+      "wer": 1.0,
+      "exact_match": false,
+      "partial_match": false
+    },
+    {
+      "name": "BG5_S016",
+      "ground_truth": "hãy chuẩn bị áo phao",
+      "prediction": "hãy chuẩn bị áo phao",
+      "gloss": [
+        "chuẩn bị",
+        "áo phao"
+      ],
+      "bleu1": 1.0,
+      "bleu2": 1.0,
+      "bleu4": 1.0,
+      "bleu": 1.0,
+      "rouge_l": 1.0,
+      "wer": 0.0,
+      "exact_match": true,
+      "partial_match": true
+    },
+    {
+      "name": "TN5_S005",
+      "ground_truth": "sóng thần đang tới, hãy di tản",
+      "prediction": "sóng thần đang tới, hãy di tản",
+      "gloss": [
+        "sóng thần",
+        "di tản"
+      ],
+      "bleu1": 1.0,
+      "bleu2": 1.0,
+      "bleu4": 1.0,
+      "bleu": 1.0,
+      "rouge_l": 1.0,
+      "wer": 0.0,
+      "exact_match": true,
+      "partial_match": true
+    },
+    {
+      "name": "BG1_S029",
+      "ground_truth": "tôi đau đầu và chóng mặt",
+      "prediction": "tôi đang đau bụng",
+      "gloss": [
+        "đầu",
+        "chóng mặt"
+      ],
+      "bleu1": 0.5,
+      "bleu2": 0.0,
+      "bleu4": 0.0,
+      "bleu": 0.0,
+      "rouge_l": 0.4,
+      "wer": 0.8333333333333334,
+      "exact_match": false,
+      "partial_match": false
+    },
+    {
+      "name": "TN3_S045",
+      "ground_truth": "@",
+      "prediction": "tôi ngứa da, hãy giúp đỡ tôi",
+      "gloss": [
+        "kí hiệu",
+        "@"
+      ],
+      "bleu1": 0.0,
+      "bleu2": 0.0,
+      "bleu4": 0.0,
+      "bleu": 0.0,
+      "rouge_l": 0.0,
+      "wer": 7.0,
+      "exact_match": false,
+      "partial_match": false
+    },
+    {
+      "name": "HP1_S003",
+      "ground_truth": "có bão, nước đang dâng cao",
+      "prediction": "hãy mở nhanh cửa sổ ra",
+      "gloss": [
+        "bão",
+        "nước",
+        "cao"
+      ],
+      "bleu1": 0.0,
+      "bleu2": 0.0,
+      "bleu4": 0.0,
+      "bleu": 0.0,
+      "rouge_l": 0.0,
+      "wer": 1.0,
+      "exact_match": false,
+      "partial_match": false
+    },
+    {
+      "name": "BG5_S036",
+      "ground_truth": "cảm ơn vì bạn đã giúp",
+      "prediction": "cảnh báo bây giờ đang có lũ",
+      "gloss": [
+        "cảm ơn",
+        "bạn",
+        "giúp"
+      ],
+      "bleu1": 0.0,
+      "bleu2": 0.0,
+      "bleu4": 0.0,
+      "bleu": 0.0,
+      "rouge_l": 0.0,
+      "wer": 1.1666666666666667,
+      "exact_match": false,
+      "partial_match": false
+    },
+    {
+      "name": "BG3_S001",
+      "ground_truth": "lũ đang đến ngay bây giờ",
+      "prediction": "lũ đang đến ngay bây giờ",
+      "gloss": [
+        "lũ",
+        "bây giờ"
+      ],
+      "bleu1": 1.0,
+      "bleu2": 1.0,
+      "bleu4": 1.0,
+      "bleu": 1.0,
+      "rouge_l": 1.0,
+      "wer": 0.0,
+      "exact_match": true,
+      "partial_match": true
+    },
+    {
+      "name": "BG1_S032",
+      "ground_truth": "tôi mệt mỏi do không ngủ",
+      "prediction": "tôi mệt mỏi do không ngủ",
+      "gloss": [
+        "mệt mỏi",
+        "ngủ",
+        "không"
+      ],
+      "bleu1": 1.0,
+      "bleu2": 1.0,
+      "bleu4": 1.0,
+      "bleu": 1.0,
+      "rouge_l": 1.0,
+      "wer": 0.0,
+      "exact_match": true,
+      "partial_match": true
+    },
+    {
+      "name": "BG1_S034",
+      "ground_truth": "tôi đang bị sốt",
+      "prediction": "tôi đang bị sốt",
+      "gloss": [
+        "tôi",
+        "bệnh sốt"
+      ],
+      "bleu1": 1.0,
+      "bleu2": 1.0,
+      "bleu4": 1.0,
+      "bleu": 1.0,
+      "rouge_l": 1.0,
+      "wer": 0.0,
+      "exact_match": true,
+      "partial_match": true
+    },
+    {
+      "name": "TN2_S007",
+      "ground_truth": "cảnh báo bây giờ đang có lũ",
+      "prediction": "cảnh báo bây giờ đang có lũ",
+      "gloss": [
+        "cảnh báo",
+        "lũ",
+        "bây giờ"
+      ],
+      "bleu1": 1.0,
+      "bleu2": 1.0,
+      "bleu4": 1.0,
+      "bleu": 1.0,
+      "rouge_l": 1.0,
+      "wer": 0.0,
+      "exact_match": true,
+      "partial_match": true
+    },
+    {
+      "name": "TN5_S036",
+      "ground_truth": "cảm ơn vì bạn đã giúp",
+      "prediction": "cảnh báo bây giờ đang có lũ",
+      "gloss": [
+        "cảm ơn",
+        "bạn",
+        "giúp"
+      ],
+      "bleu1": 0.0,
+      "bleu2": 0.0,
+      "bleu4": 0.0,
+      "bleu": 0.0,
+      "rouge_l": 0.0,
+      "wer": 1.1666666666666667,
+      "exact_match": false,
+      "partial_match": false
+    },
+    {
+      "name": "BG2_S043",
+      "ground_truth": "thức ăn có ngon không?",
+      "prediction": "hôm nay có vui không vậy?",
+      "gloss": [
+        "thức ăn",
+        "ngon",
+        "không"
+      ],
+      "bleu1": 0.16666666666666666,
+      "bleu2": 0.0,
+      "bleu4": 0.0,
+      "bleu": 0.0,
+      "rouge_l": 0.1818181818181818,
+      "wer": 1.0,
+      "exact_match": false,
+      "partial_match": false
+    },
+    {
+      "name": "TN4_S038",
+      "ground_truth": "tôi yêu gia đình",
+      "prediction": "có thể lấy nước uống ở đâu?",
+      "gloss": [
+        "tôi",
+        "yêu",
+        "gia đình"
+      ],
+      "bleu1": 0.0,
+      "bleu2": 0.0,
+      "bleu4": 0.0,
+      "bleu": 0.0,
+      "rouge_l": 0.0,
+      "wer": 1.75,
+      "exact_match": false,
+      "partial_match": false
+    },
+    {
+      "name": "BG3_S010",
+      "ground_truth": "gọi cứu hộ ngay bây giờ đi",
+      "prediction": "gọi cứu hộ ngay bây giờ đi",
+      "gloss": [
+        "cứu hộ",
+        "gọi",
+        "bây giờ"
+      ],
+      "bleu1": 1.0,
+      "bleu2": 1.0,
+      "bleu4": 1.0,
+      "bleu": 1.0,
+      "rouge_l": 1.0,
+      "wer": 0.0,
+      "exact_match": true,
+      "partial_match": true
+    },
+    {
+      "name": "BG4_S001",
+      "ground_truth": "lũ đang đến ngay bây giờ",
+      "prediction": "lũ đang đến ngay bây giờ",
+      "gloss": [
+        "lũ",
+        "bây giờ"
+      ],
+      "bleu1": 1.0,
+      "bleu2": 1.0,
+      "bleu4": 1.0,
+      "bleu": 1.0,
+      "rouge_l": 1.0,
+      "wer": 0.0,
+      "exact_match": true,
+      "partial_match": true
+    },
+    {
+      "name": "BG5_S041",
+      "ground_truth": "học chữ A, B",
+      "prediction": "tôi ngứa da, hãy giúp đỡ tôi",
+      "gloss": [
+        "A",
+        "B",
+        "học"
+      ],
+      "bleu1": 0.0,
+      "bleu2": 0.0,
+      "bleu4": 0.0,
+      "bleu": 0.0,
+      "rouge_l": 0.0,
+      "wer": 1.75,
+      "exact_match": false,
+      "partial_match": false
+    },
+    {
+      "name": "HP1_S016",
+      "ground_truth": "hãy chuẩn bị áo phao",
+      "prediction": "có thể lấy nước uống ở đâu?",
+      "gloss": [
+        "chuẩn bị",
+        "áo phao"
+      ],
+      "bleu1": 0.0,
+      "bleu2": 0.0,
+      "bleu4": 0.0,
+      "bleu": 0.0,
+      "rouge_l": 0.0,
+      "wer": 1.4,
+      "exact_match": false,
+      "partial_match": false
+    },
+    {
+      "name": "HP1_S047",
+      "ground_truth": "tôi không biết",
+      "prediction": "tôi ngứa da, hãy giúp đỡ tôi",
+      "gloss": [
+        "tôi",
+        "không biết"
+      ],
+      "bleu1": 0.14285714285714285,
+      "bleu2": 0.0,
+      "bleu4": 0.0,
+      "bleu": 0.0,
+      "rouge_l": 0.2,
+      "wer": 2.0,
+      "exact_match": false,
+      "partial_match": false
+    },
+    {
+      "name": "BG1_S027",
+      "ground_truth": "tôi bị chảy máy tay",
+      "prediction": "tôi bị chảy máy tay",
+      "gloss": [
+        "chảy máu",
+        "tay"
+      ],
+      "bleu1": 1.0,
+      "bleu2": 1.0,
+      "bleu4": 1.0,
+      "bleu": 1.0,
+      "rouge_l": 1.0,
+      "wer": 0.0,
+      "exact_match": true,
+      "partial_match": true
+    },
+    {
+      "name": "BG3_S021",
+      "ground_truth": "tôi đang đau bụng",
+      "prediction": "tôi ngứa da, hãy giúp đỡ tôi",
+      "gloss": [
+        "tôi",
+        "bụng",
+        "đau"
+      ],
+      "bleu1": 0.14285714285714285,
+      "bleu2": 0.0,
+      "bleu4": 0.0,
+      "bleu": 0.0,
+      "rouge_l": 0.18181818181818182,
+      "wer": 1.5,
+      "exact_match": false,
+      "partial_match": false
+    }
+  ],
+  "errors": []
+}
