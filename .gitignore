@@ -48,6 +48,7 @@ temp_*/
 *.db
 .DS_Store
 
+
 # Output directories (keep structure, ignore contents)
 output/*
 !output/.gitkeep
@@ -68,3 +69,5 @@ ignore.txt
 tools/*.jpg
 tools/*.mp4
 pre_training.py
+data/VSL/labels.test
+
