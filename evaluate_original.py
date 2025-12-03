@@ -187,10 +187,14 @@ def run_inference(model, pose_data: dict, device: str, rgb_support: bool = True)
     # Add RGB placeholders if rgb_support is enabled
     if rgb_support:
         # Create dummy RGB tensors and indices
-        batch['left_hands'] = torch.zeros(1, 3, 224, 224).to(device)
-        batch['right_hands'] = torch.zeros(1, 3, 224, 224).to(device)
-        batch['left_sampled_indices'] = torch.zeros(1, 1, dtype=torch.long).to(device)
-        batch['right_sampled_indices'] = torch.zeros(1, 1, dtype=torch.long).to(device)
+        batch['left_hands'] = torch.zeros(1, 3, 112, 112).to(device)
+        batch['right_hands'] = torch.zeros(1, 3, 112, 112).to(device)
+        batch['left_sampled_indices'] = torch.zeros(1, dtype=torch.long).to(device)
+        batch['right_sampled_indices'] = torch.zeros(1, dtype=torch.long).to(device)
+        batch['left_rgb_len'] = [1]
+        batch['right_rgb_len'] = [1]
+        batch['left_skeletons_norm'] = torch.zeros(1, 21, 2).to(device)
+        batch['right_skeletons_norm'] = torch.zeros(1, 21, 2).to(device)
     
     fake_tgt = {'gt_sentence': ['']}
     
@@ -220,10 +224,10 @@ def main():
     
     # Load test set
     print("\n[1/3] Loading test set...")
-    with gzip.open('vn_sentence_data/labels.test', 'rb') as f:
+    with gzip.open('data/VSL/labels.test', 'rb') as f:
         test_labels = pickle.load(f)
     
-    with gzip.open('vn_sentence_data/labels.train', 'rb') as f:
+    with gzip.open('data/VSL/labels.train', 'rb') as f:
         train_labels = pickle.load(f)
     
     print(f"   Train: {len(train_labels)} samples")
