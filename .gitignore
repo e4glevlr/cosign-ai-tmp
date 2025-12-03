@@ -9,6 +9,13 @@ wandb/
 backup/
 log/
 *.xlsx
+*.json
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.flv
+
 
 # IDE
 .idea/
